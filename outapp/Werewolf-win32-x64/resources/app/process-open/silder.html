@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../static/css/jquery.bxslider.css"/>
+		<script src="../static/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/js/jquery.bxslider.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		img{height:700px;}
+	</style>
+	<body>
+		 <p>轮播</p>
+
+    <div class="slider9"> 
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div> 
+
+      <div class="slide"><img src="http://placehold.it/350x150&text=FooBar10"></div>
+
+    </div>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+          $('.slider9').bxSlider({ 
+
+            slideWidth:'full',
+
+			minSlides: 1,
+
+			maxSlides: 1,
+
+			ticker: true,
+
+			speed: 50000,
+
+			startSlides:9, 
+
+            slideMargin: 10
+
+          });
+
+        });
+
+    </script>
+	</body>
+</html>

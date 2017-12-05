@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="dist/bootstrap-3.3.7/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="static/css/login.css"/>
+		<script src="static/js/login.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="openControl">
+			<div class="hove">
+				<span>||</span>
+			</div>
+			<span>拓展屏控制</span>
+			<button class="expand" numdata="1">打开大屏1</button>
+			<button class="expand" numdata="2">打开大屏2</button>
+			<button class="expand" numdata="3">打开大屏3</button>
+			<button class="expand" numdata="4">打开大屏4</button>
+			<button class="expand" numdata="5">打开大屏5</button>
+			<button class="expand" numdata="6">打开大屏6</button>
+			<button class="lun">轮播</button>
+			<button id="close">关闭</button>
+		</div>
+		<iframe src="http://120.27.221.170:8006" style="width: 100%;height:100%;" scrolling="no"></iframe>
+	</body>
+	<script>
+		require("./process-open/open.js");
+	</script>
+</html>
