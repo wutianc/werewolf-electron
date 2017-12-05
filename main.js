@@ -9,7 +9,7 @@ let mainWindow;
 function createWindow () {
   mainWindow = new BrowserWindow({x:0,y:0,fullscreen: false,fram:false})
   mainWindow.loadURL('file://'+__dirname+"/login.html");
-  //调试工具
+  //123调试工具
   //mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed', function () {
