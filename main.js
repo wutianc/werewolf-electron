@@ -10,8 +10,8 @@ function createWindow () {
   mainWindow = new BrowserWindow({x:0,y:0,fullscreen: false,fram:false})
   mainWindow.loadURL('file://'+__dirname+"/login.html");
   //调试工具
-  //mainWindow.webContents.openDevTools();
-  
+  mainWindow.webContents.openDevTools();
+
   mainWindow.on('closed', function () {
     mainWindow = null
   })
@@ -35,4 +35,3 @@ app.on('activate', function () {
     create2Window()
   }
 })
-
