@@ -9,8 +9,13 @@ let mainWindow;
 function createWindow () {
   mainWindow = new BrowserWindow({x:0,y:0,fullscreen: false,fram:false})
   mainWindow.loadURL('file://'+__dirname+"/login.html");
+<<<<<<< HEAD
   //123调试工具
   //mainWindow.webContents.openDevTools();
+=======
+  //调试工具
+  mainWindow.webContents.openDevTools();
+>>>>>>> e12e618c4377db04443fa9498a860f204ed83b5b
 
   mainWindow.on('closed', function () {
     mainWindow = null
